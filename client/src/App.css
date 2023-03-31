@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #abb0f0;
+  height: 100vh;
 }
